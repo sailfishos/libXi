@@ -1,6 +1,6 @@
 Name: libXi
 Summary: X.Org X11 libXi runtime library
-Version: 1.4.3
+Version: 1.5.0
 Release: 1
 Group: System/Libraries
 License: MIT
@@ -14,7 +14,7 @@ PkgConfigBR:
     - x11
     - xextproto
     - xext
-    - inputproto
+    - inputproto >= 2.0.99.1
 SubPackages:
     - Name: devel
       Summary: Development components for the libXi library

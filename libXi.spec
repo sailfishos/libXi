@@ -7,7 +7,7 @@
 
 Name:       libXi
 Summary:    X.Org X11 libXi runtime library
-Version:    1.4.3
+Version:    1.5.0
 Release:    1
 Group:      System/Libraries
 License:    MIT
@@ -20,7 +20,7 @@ BuildRequires:  pkgconfig(xproto)
 BuildRequires:  pkgconfig(x11)
 BuildRequires:  pkgconfig(xextproto)
 BuildRequires:  pkgconfig(xext)
-BuildRequires:  pkgconfig(inputproto)
+BuildRequires:  pkgconfig(inputproto) >= 2.0.99.1
 
 
 %description
